@@ -10,6 +10,11 @@ def hello_world():
     return {'hello': 'world'}
 
 
+@app.get("/items/me")
+def read_item_me():
+    return {'item_id': 'current item'}
+
+
 @app.get("/items/{item_id}")
 def get_items_by_id(item_id: int, q: Optional[str] = None):
     if q:
