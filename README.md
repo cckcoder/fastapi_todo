@@ -47,3 +47,13 @@ def hello_world():
 - Swagger UI ทำให้เราสามารถจัดการ ในส่วน route api ได้อย่างง่ายดาย
   - เช่น เราสามารถ ดูผลลัพธ์ จากหน้านี้ได้เลย เหมือนมี Post Man Buil-in มาเลยครับ
   - ลองดูกันเลยครับ `localhost:8000/docs`
+
+
+# Tortoise-ORM
+
+https://tortoise-orm.readthedocs.io/en/latest/
+
+- Install
+```
+pip install tortoise-orm
+```
