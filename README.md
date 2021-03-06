@@ -57,3 +57,6 @@ https://tortoise-orm.readthedocs.io/en/latest/
 ```
 pip install tortoise-orm
 ```
+
+- example
+https://fastapi-crudrouter.awtkns.com/backends/tortoise/#full-example
