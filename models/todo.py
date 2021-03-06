@@ -14,4 +14,6 @@ class Todos(models.Model):
 
 
 Todos_Pydantic = pydantic_model_creator(Todos, name="Todo")
-TodosIn_Pydantic = pydantic_model_creator(Todos, name="TodoIn", exclude_readonly=True)
+TodosIn_Pydantic = pydantic_model_creator(
+    Todos, name="TodoIn", exclude_readonly=True
+)
